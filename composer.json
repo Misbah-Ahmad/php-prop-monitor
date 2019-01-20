@@ -1,0 +1,19 @@
+{
+    "name": "misbah/prop-monitor",
+    "description": "This library will help you to check nested php objects whether they have some certain properties or not.",
+    "type": "library",
+    "authors" :[
+    	{
+    		"name": "Misbah Ahmad",
+    		"email": "imiiucian@gmail.com"
+    	}
+	],
+    "autoload":{
+    	"psr-4": {
+    		"PropMonitor\\": "src/"
+    	}
+    },
+    "require": {},
+    "license": "MIT",
+    "minimum-stability": "dev"
+}
