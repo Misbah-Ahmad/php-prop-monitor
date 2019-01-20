@@ -1,5 +1,7 @@
 # php-prop-monitor
-A simple php library that digs into nested php objects to find certain properties
+A simple php library that digs into nested php objects to find certain properties.
+
+It's handy if you have to work with a large object :scream: & you also want to avoid using _property_exists(class, property)_ :smirk: several times to find a single property :).   
 
 ## Intallation
 
