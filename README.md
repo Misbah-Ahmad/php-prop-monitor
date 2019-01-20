@@ -1,5 +1,5 @@
 # php-prop-monitor
-A simple php library that digs nested php objects to find certain properties
+A simple php library that digs into nested php objects to find certain properties
 
 ## Intallation
 
