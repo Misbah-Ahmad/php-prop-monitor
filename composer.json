@@ -2,6 +2,7 @@
     "name": "misbah/prop-monitor",
     "description": "This library will help you to check nested php objects whether they have some certain properties or not.",
     "type": "library",
+    "keywords": ["property-finder","object-search", "property-digging"],
     "authors" :[
     	{
     		"name": "Misbah Ahmad",
