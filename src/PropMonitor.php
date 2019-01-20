@@ -2,7 +2,7 @@
 
 namespace PropMonitor;
 
-public class PropMonitor{
+class PropMonitor{
     
 
 
@@ -56,7 +56,7 @@ public class PropMonitor{
                 {
                     $object = $object->{$property};
                 } else {
-                    return fasle;
+                    return false;
                 }
 
             }
