@@ -49,7 +49,7 @@ $users = {
   {
     echo "Yee! John has the github property 8).";
   } else {
-    echo "Oops! John isn't enough lucky to have the mighty github property :(";
+    echo "Oops! John isn't lucky enough to have the mighty github property :(";
   }
   
 ```
@@ -71,7 +71,7 @@ $users = {
   {
     echo "Yee! John has the tumblr property 8).";
   } else {
-    echo "Oops! John isn't enough lucky to have the mighty tumblr property :(";
+    echo "Oops! John isn't lucky enough to have the mighty tumblr property :(";
   }
   
 ```
@@ -93,7 +93,7 @@ $users = {
   {
     echo "Yee! John has the twitter property 8).";
   } else {
-    echo "Oops! John isn't enough lucky to have the mighty twitter property :(";
+    echo "Oops! John isn't lucky enough to have the mighty twitter property :(";
   }
     
 ```
