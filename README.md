@@ -3,7 +3,7 @@ A simple php library that digs into nested php objects to find certain propertie
 
 It's handy if you have to work with a large object :scream: & you also want to avoid using _property_exists(class, property)_ :smirk: several times to find a single property :).   
 
-## Intallation
+## Installation
 
 use _**composer require misbah/prop-monitor**_ to install
 
