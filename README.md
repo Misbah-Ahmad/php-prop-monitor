@@ -7,6 +7,12 @@ It's handy if you have to work with a large object :scream: & you also want to a
 
 use _**composer require misbah/prop-monitor**_ to install
 
+## Changelog
+  * 2.0.0
+  
+        Added get($object, array $properties) function to extract a desired value by following a path of properties & array indices.
+   
+   
 ## Usage
 
 Let the following json object is converted to StdClass:
@@ -48,11 +54,25 @@ $users = {
   if($monitor->check($users, $propertiesToCheck)) // assuming that we have access to the $users object described above.
   {
     echo "Yee! John has the github property 8).";
+    echo "The handle is ".$monitor->get($users, $propertiesToCheck); // This will return @jdoegit
   } else {
     echo "Oops! John isn't lucky enough to have the mighty github property :(";
   }
   
 ```
+
+**Note for using get($object, array $properties) function**
+
+If the extraction of a value fails, this function will return boolean false.
+
+So, to check a failure, use ``` $result === false ```.
+
+If you are expecting a boolean value as the final result, use ``` $result === 0 ``` OR ``` $result === 1 ```.
+
+Because this function will convert final boolean values to integer values. 
+
+
+
 
 ### Check whether 'tumblr' property is present or not for the first user in the users array
 
